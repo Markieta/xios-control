@@ -2,6 +2,8 @@
 <html>
 <head>
 <link rel="shortcut icon" href="images/favicon.png">
+<link rel="stylesheet" type="text/css" href="css/toggle.css">
+<link rel="stylesheet" type="text/css" href="css/align.css">
 </head>
 
 <script>
@@ -12,7 +14,20 @@ function startTransmission()
 </script>
 
 <body>
-<button onclick="startTransmission()">Click Me!</button>
+<div style="text-align:center;">
+  <div class="left">Transmission</div>
+  <div class="onoffswitch right">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+  </div>
+</div>
+<div style="text-align:center;">
+  <div class="left">BlahBlahBlah Longer Text</div>
+  <div class="onoffswitch right">
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
+    <label class="onoffswitch-label" for="myonoffswitch"></label>
+  </div>
+</div>
 </body>
 </html>
 

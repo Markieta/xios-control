@@ -1,0 +1,12 @@
+div.left
+{
+    text-align: left;
+    width: 20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+div.right
+{
+    display: inline-block;
+    vertical-align: middle;
+}
