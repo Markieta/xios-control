@@ -7,25 +7,30 @@
 </head>
 
 <script>
-function startTransmission()
+function toggleTransmission(toggle)
 {
-  alert("Hello World");
+  if(toggle.checked)
+  {
+  }
+  else
+  {
+  }
 }
 </script>
 
 <body>
-<div style="text-align:center;">
+<div class="row">
   <div class="left">Transmission</div>
   <div class="onoffswitch right">
-    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-    <label class="onoffswitch-label" for="myonoffswitch"></label>
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="transmission" onChange="toggleTransmission(this)">
+    <label class="onoffswitch-label" for="transmission"></label>
   </div>
 </div>
-<div style="text-align:center;">
+<div class="row">
   <div class="left">BlahBlahBlah Longer Text</div>
   <div class="onoffswitch right">
-    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" checked>
-    <label class="onoffswitch-label" for="myonoffswitch"></label>
+    <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="blah" checked>
+    <label class="onoffswitch-label" for="blah"></label>
   </div>
 </div>
 </body>

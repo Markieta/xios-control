@@ -1,9 +1,16 @@
+div.row
+{
+    text-align: center;
+    margin: 10px 0;
+}
 div.left
 {
     text-align: left;
-    width: 20%;
+    width: 50%;
     display: inline-block;
     vertical-align: middle;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 60px;
 }
 div.right
 {
